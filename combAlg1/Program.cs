@@ -58,7 +58,7 @@ namespace combAlg1
                     }
                     output[output.Count - 1] += "0";
                 }
-                File.WriteAllLines("out.txt", output); // =)
+                File.WriteAllLines("out.txt", output); 
             }
         }
         public static List<List<Int32>> readGraph()
